@@ -47,6 +47,7 @@ makeRoute('dataCollect_manaf');
 makeRoute('testing');
 makeRoute('trade_manaf');
 makeRoute('trade_signals');
+makeRoute('conclusion_manaf');
 
 app.get('/', function(req, res) {
   res.json({
